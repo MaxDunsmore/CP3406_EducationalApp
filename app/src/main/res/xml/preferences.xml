@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/difficulty_level_list"
+        android:entryValues="@array/difficulty_level_list"
+        android:key="difSelection"
+        android:summary="@string/difficulty_level_summary"
+        android:title="Difficulty Level" />
+
+    <ListPreference
+        android:defaultValue="On"
+        android:entries="@array/music_list"
+        android:entryValues="@array/music_list"
+        android:key="musicSelection"
+        android:summary="@string/music_summary"
+        android:title="Prompt Tone" />
+</PreferenceScreen>
